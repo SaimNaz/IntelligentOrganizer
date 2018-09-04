@@ -1,0 +1,411 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Feb, 2016, 11:12:26 PM
+    Author     : Saurav Singh
+*/
+
+
+
+body,html{
+margin:0;
+padding:0;
+border:0;
+
+}
+.page { background-color: #ebebeb;
+          position:fixed;
+          width: 100%;
+          height:100%;
+          margin-top:0;
+          background-image: url("images/bg-img1.png");
+       }
+.top {background-color: white;
+        width: 100%; 
+       height: 30px;
+       
+       background-image: url("images/bg-img1.png");
+
+	  
+    
+}
+.toptext {
+      color: orange;
+      font-family: fantasy, cursive;
+       text-align:center;
+       font-size: x-large;
+       //background-image: url("images/bg-img1.png");
+       margin-left: 35%;
+           float: left ;
+	  
+    
+}
+
+
+.head {background-color: #6F0F75; 
+        width: 100%; 
+       height: 45px;
+        font-family: fantasy, cursive;
+       text-align:center;
+       font-size: x-large;
+
+       
+       }
+       
+.container{
+height:80%;
+width:100%;
+margin-top: 2px;
+}
+.lpane {background-color: white;
+        color: black;
+        width: 12%;
+        height:100%;
+        float: left;
+        position:relative;
+        text-align: center;
+        font-family: fantasy, cursive;        
+        background-image: url("images/bg-img1.png");
+}
+.lpane a{
+    color:white
+}
+.mpane {background-color: white;
+        color: black;
+        width: 76%;
+        height:100%;
+        float: left;
+        background-image: url("images/bg-img1.png");
+        
+       
+}
+#mpanepart1{
+    background-color: white;
+        color: black;
+        background-image: url("images/bg-img1.png");
+        width: 100%;
+        height:60%;
+        
+}
+#mpanepart1sub{
+    background-color: white;
+        color: black;
+        background-image: url("images/bg-img1.png");
+        width: 100%;
+        
+        height:100%;
+        float: left;
+    
+}
+#mpanepart2{
+    width: 100%;
+    height: 20%;
+    position:relative;
+    text-align: center;
+    font-family: fantasy, cursive;
+    background-color: white;
+    background-image: url("images/bg-img1.png");
+	
+}
+#mpanepart2 a{
+    color:orange;
+    font-family: fantasy, cursive;
+        
+}
+
+.rpane {background-color: white;
+      color: black;
+        width: 12%;
+        height:100%;
+        float:left;
+        position:relative;
+        text-align: center;
+        font-family: fantasy, cursive;   
+        background-image: url("images/bg-img1.png");
+   
+
+}
+#rpaneico{
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+
+.sub-img { 
+            margin-top: 70%;
+            text-decoration: none;
+}
+.sub-img a{
+    text-decoration: none;
+}
+.navblock{
+    background-color: #6F0F75; 
+    width:80%; 
+    height:35px;
+        position:relative;
+        text-align: center;
+        font-family: fantasy, cursive;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 5px;
+        padding: 2px;
+        border-radius: 5px;
+}
+
+.navblock:hover {
+    background-color: orange;
+    }
+
+
+
+
+
+.downline {
+    width: 100%;
+    position:relative;
+    text-align: center;
+    font-family: fantasy, cursive;
+    color: black;
+    background-image: url("images/bg-img1.png");
+}
+.slideShowImages { /* The following CSS rules are optional. */
+    border: 1px gray solid;
+    background-color: lightgray;
+     
+    }   
+  
+.slideShowImages img { /* The following CSS rules are optional. */
+    border: 0.8em black solid;
+    padding: 0;
+    }   
+   
+.nav-main{
+    position: fixed;
+    z-index: 1;        
+    background-color: #6F0F75;
+    color: white;
+    width: 100%; 
+    height:45px;
+
+
+}
+
+.logo{
+        float: left;
+        width: 150px;
+        height: 45px;
+       
+    }
+.nav-main > ul{
+color: white;
+float:left;
+list-style-type:none;
+}
+
+.nav-main >ul >li{
+float:left;
+color: white;
+}
+
+.nav-main > ul > li > a {
+    color: black;
+    font-family: fantasy, cursive;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    
+    
+}
+/*
+.nav-main > ul > li > a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.nav-main > ul > li > a:hover {
+    color: orange;
+    background-color: black;
+    text-decoration: none;
+}
+
+.nav-main > ul > li > a:active {
+    color: yellow;
+    background-color: transparent;
+    
+}    
+*/
+#nav-item{
+display:inline-block;
+height:35px;
+width: 100px;
+color: white;
+text-decoration:none;
+margin-left: 10px;
+}
+
+#nav-item:hover{
+background-color:transparent;
+color:red;
+}
+/*
+#nav-item > ul{
+margin:0;
+color: white;
+padding:0;
+float:left;
+list-style-type:none;
+}
+*/
+/*#nav-item >ul >li{
+float:left;
+color: white;
+}*/
+/*
+#nav-item > ul > li > a {
+    color: white;
+    background-color: transparent;
+    font-family: fantasy, cursive;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    
+    
+}
+*/
+/*
+#nav-item  ul  li  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#nav-item > ul > li > a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+    display:block;
+}
+#nav-item > ul > li > a:active {
+    color: yellow;
+    background-color: transparent;
+    
+}
+*/
+
+#nav-content {
+position: fixed;
+overflow:hidden;
+background-color: #ebebeb;
+max-height:0;
+margin-left: 10px;
+}
+/*
+#nav-content > ul{
+margin:0;
+color: white;
+padding:0;
+float:left;
+list-style-type:none;
+}
+*/
+#nav-content > ul li{
+float:left;
+color: white;
+}
+/*
+#nav-content > ul > li > a {
+    color: white;
+    background-color: transparent;
+    font-family: fantasy, cursive;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    z-index:9999;
+   
+}
+*/
+/*
+#nav-content > ul > li > a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+#nav-content > ul > li > a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+    display:block;
+}
+#nav-content > ul > li > a:active {
+    color: yellow;
+    background-color: transparent;
+    
+}
+*/
+
+#nav-sub {
+margin:0;
+padding:20px;
+color: white;
+}
+/*
+#nav-sub > ul{
+margin:0;
+color: white;
+padding:0;
+list-style-type:none;
+}
+*/
+/*
+#nav-sub > ul > li{
+color: white;
+}
+*/
+#nav-sub ul li a {
+    color: white;
+    background-color: transparent;
+    font-family: fantasy, cursive;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    z-index:9999;
+    display:inline-block;
+    padding:5px 0;
+    color: #6F0F75;
+   
+}
+/*
+#nav-sub > ul > li > a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#nav-sub > ul > li > a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+    display:block;
+}
+#nav-sub > ul > li > a:active {
+    color: yellow;
+    background-color: transparent;
+    
+}
+*/
+#nav-item:focus {
+background-color:transparent;
+}
+
+#nav-item:focus ~ #nav-content {
+max-height:400px;
+-webkit-transition:max-height 0.4s ease-in;
+-moz-transition:max-height 0.4s ease-in-out;
+transition:max-height 0.4s ease-in-out;
+}

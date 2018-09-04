@@ -1,0 +1,41 @@
+.sign{
+              background-color: #whitesmoke;
+                  font-family: fantasy, cursive;
+       text-align:center;
+       font-size: large;
+}
+.content1 {background-color: white;
+        color: black;
+        width: 76%;
+        height:100%;
+        float: left;
+		
+}
+
+.panel {background-color: whitesmoke;
+        color: black;
+        width: 12%;
+        height:100%;
+        float: left;
+        position:relative;
+        text-align: center;
+        font-family: fantasy, cursive;        
+}
+.panel a{
+    color:white
+}
+.paner {background-color: whitesmoke;
+      color: black;
+        width: 12%;
+        height:100%;
+        float:left;
+        position:relative;
+        text-align: center;
+        font-family: fantasy, cursive;        
+
+}
+.container1{
+height:100%;
+width:100%;
+
+}
